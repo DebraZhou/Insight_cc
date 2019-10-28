@@ -1,0 +1,75 @@
+--------------------------------------------
+Border Crossing/Entry Data: FAQ
+--------------------------------------------
+Q1. What are the Border Crossing/Entry Data?
+
+The Border Crossing/Entry Data provides information on vehicles/equipment, passengers and pedestrians entering the United States through land ports on the U.S.-Canadian and U.S.-Mexican border. The Bureau of Transportation Statistics (BTS) obtains these data on a monthly basis from U.S. Customs and Border Protection (CBP). BTS then assesses, analyzes, summarizes, and disseminates monthly and annual Border Crossing/Entry data. Most data elements are available beginning in 1994.
+
+Q2. What does BTS do with the data before releasing it to the public?
+
+In order to provide BTS customers with the most relevant data from a transportation perspective, BTS has developed a system for extracting, processing, and validating Border Crossing Data for all CBP land ports of entry. BTS extracts data for all major land ports of entry on the northern and southern borders. These data are then organized into monthly and annual tables for each port. Ports are sorted by state, and state totals are aggregated into totals for the northern and southern borders. During this extraction process, BTS reviews the data for consistency and consults with the CBP, the primary source agency, on quality issues. New data are added approximately six months after the month from which the data are collected. This processing time is used to validate and revise the data.
+
+Q3. How Is the Border Crossing/Entry Data Disseminated?
+
+The Border Crossing/Entry Data are periodically updated. Data become available approximately six months after the end of the month from which the data are collected. This time allows for receipt of the data from the CBP as well as BTS quality assurance and validation.
+Data are disseminated to customers, upon request, in both monthly and annual summary tables, and on the Internet at http://www.rita.dot.gov/bts/programs/international/. Customers can request Border Crossing/Entry data by contacting BTS Information Services (by email at RITAInfo@dot.gov or by phone at 800-853-1351).
+
+Q4. What exactly do the Border Crossing/Entry Data cover?
+
+This dataset covers inbound border crossings. U.S. Customs and Border Protection (CBP) does not collect data on outbound border crossings.
+The border crossing/entry data do not measure the number of unique vehicles, containers, passengers, or pedestrians that enter the United States. Rather, the data are the total amount of crossings that occur in a given month or year. For example, one drayage truck operating on the southern border may cross through the port of Laredo, Texas ten times a day as it loads and unloads shipments between the United States and Mexico.
+
+Q5. Are data for air and water modes also available?
+
+Currently, BTS only tabulates and releases Border Crossing/Entry Data for land ports of entry on the northern and southern borders. Other federal agencies, including the U.S. Army Corps of Engineers, Maritime Administration, and the U.S. Coast Guard also collect information on maritime activity. For air data, BTS relies upon information from its own Office of Airline Information (OAI), which collects a wide variety of economic, market and financial data from U.S. and foreign air carriers at the airport and route level. Additional information about OAI data can be found at: www.rita.dot.gov/bts/oai.
+
+Q6. At what level of detail are the data reported?
+
+Border Crossing/Entry data are reported at the CBP port level. The U.S. Census Bureau maintains a list of CBP districts/ports, port codes and descriptions known as the Schedule D. The most recent Schedule D is available from the U.S. Census Bureau's Foreign Trade Division at: http://www.census.gov/foreign-trade/schedules/d/dist2.txt.
+
+Q7. How are border ports defined?
+
+Schedule D port definitions represent the CBP ports, not individual transportation facilities, or infrastructure. Data for specific roads, tunnels, or bridges that pass through the same port are not available separately by CBP. For example, there are several bridges that carry traffic through Laredo, but Border Crossing/Entry Data are only available for the port of Laredo. Data for a specific infrastructure point (such as a bridge) are generally collected by the company or government agency responsible for operating and maintaining that piece of infrastructure. Bridge operators occasionally make their traffic information available. CBP officials at particular ports should be able to provide contact information for the operating authorities at the particular facility in question.
+
+Q8. What are the data elements and how are they defined?
+
+BTS tabulates and releases data for 12 data elements across five surface modes of transportation. The 12 data elements are listed below with their corresponding definitions, as determined by CBP.
+* Trucks - Number of arriving trucks; does not include privately owned pick-up trucks.
+* Truck containers (loaded and empty) - A container is any conveyance entering the U.S. used for commercial purposes, loaded or empty. In this case, it is the number of loaded or empty truck containers arriving at a port. This series includes containers moving as in-bond shipments.
+* Trains - Number of arriving trains at a particular port.
+* Rail containers (loaded and empty) - A container is any conveyance entering the U.S. used for commercial purposes, loaded or empty. In this case, it is the number of loaded or empty rail containers arriving at a port. This series includes containers moving as in-bond shipments.
+* Trains Passengers - Number of passengers and crew arriving by train and requiring CBP processing.
+* Buses - Number of arriving buses at a particular port, whether or not they are carrying passengers.
+* Bus Passengers - Number of persons arriving by bus requiring CBP processing.
+* Personal Vehicles  - Number of privately owned vehicles (POVs) arriving at a particular port. Includes pick-up trucks, motorcycles, recreational vehicles, taxis, snowmobiles, ambulances, hearses, and other motorized private ground vehicles.
+* Personal Vehicles Passengers - Persons entering the United States at a particular port by private automobiles, pick-up trucks, motorcycles, recreational vehicles, taxis, ambulances, hearses, tractors, snow-mobiles and other motorized private ground vehicles.
+* Pedestrians - The number of persons arriving on foot or by certain conveyance (such as bicycles, mopeds, or wheel chairs) requiring CBP processing.
+
+Q9. What types of changes have occurred with the ports of San Ysidro and Otay Mesa, CA?
+
+Changes in port classification have occurred for San Ysidro and Otay Mesa, CA due to changes in operations at these ports, and resulting reporting changes by CBP. San Ysidro and Otay Mesa are two separate CBP ports, although they are physically quite close (just six miles apart). In the early 1990s, San Ysidro no longer processed truck crossings. Instead, truck crossings were diverted to Otay Mesa. CBP however, did not immediately publish data differentiating truck crossings at Otay Mesa from San Ysidro. From 1994 to 1997, crossings at Otay Mesa and San Ysidro were reported as a combined total. Data elements have been reported separately since the beginning of 1997, but for the purpose of time series consistency, for freight crossings (trucks, truck containers loaded and empty, trains, rail containers loaded and empty , and train passengers) the port is characterized as San Ysidro/Otay Mesa. Since 1997, passenger crossings (personal vehicles and their passengers, bus crossings and their passengers, and pedestrians) have been reported separately for Otay Mesa and San Ysidro.
+
+Q10. How are the TransBorder Surface Freight Data different and/or similar to the Border Crossing/Entry data that BTS also releases?
+
+The TransBorder Surface Freight Data and Border Crossing/Entry Data are separate datasets, and provide different types of information. They can be used in conjunction with one another to provide a fuller picture and understanding of U.S. international trade with Canada and Mexico and the corresponding flows through particular border ports. Specifically, the TransBorder Surface Freight Data are derived from U.S. international trade statistics, and therefore provide information on a particular international shipment and cargo. In contrast, the Border Crossing/Entry Data provide count information, collected by CBP on the number of crossings or entries of people, vehicles, and equipment entering the United States through particular CBP ports of entry.
+
+Q11. How are Border Crossing/Entry Data used by BTS?
+
+BTS uses border crossing/entry data as a core source for analyses on U.S. and North American trade and travel. Such analyses are included in interpretive reports such as the North American Trade and Travel Trends, U.S. International Travel and Transportation Trends, and U.S. International Trade and Freight Transportation Trends. From a transportation perspective, these data are important because they provide a level of information on the amount of activity at a given port. BTS uses the Border Crossing/Entry Data in conjunction with other datasets (such as the TransBorder Surface Freight Data) to assess and track trade and travel flows, particularly for North America.
+
+Q12. Where can I find information on port operations and delays?
+
+CBP collects information on delays associated with primary and secondary inspections. The release of this information varies by CBP port. Contact information for all CBP ports is available at http://www.cbp.gov. In addition to CBP, the Federal Highway Administration (FHWA) at the U.S. Department of Transportation has a number of studies and projects underway to better understand and assess delays at the border.
+
+Q13. How are BTS customers using Border Crossing/Entry Data?
+
+A wide variety of organizations utilize the Border Crossing/Entry Data, including government agencies (state, local, federal and non-U.S.), private sector organizations, media, non-profit organizations/associations, and academia. Government agencies include metropolitan planning organizations, state Departments of Transportation, economic development agencies, public health agencies, federal agencies (including modal administrations within the U.S. Department of Transportation), and others. Private sector organizations include manufacturing firms, transportation service providers, marketing organizations, consulting groups etc. These different customer segments use the dataset for a wide variety of purposes, including transportation planning, port studies, travel analyses, corridor assessments, and other purposes. In many cases, these data are used in conjunction with other trade and travel data sources.
+
+Q14. Why did BTS change "Otay Mesa/San Ysidro, CA" to "Otay Mesa, CA" for incoming truck and rail crossing data?
+
+Until May 2011, truck and rail data for the port of entry of Otay Mesa, CA, were reported by BTS as Otay Mesa/San Ysidro, CA, which is the same as CBP's reporting of the data to the BTS. However, San Ysidro has been a passenger crossing for many years and no freight is allowed through this port of entry by truck or rail. Hence, BTS decided to change the name to "Otay Mesa" for truck and rail crossings to avoid any confusion to the data user. Thus, Otay Mesa, CA and San Ysidro, CA are now reported as separate ports of entry for all data elements.
+
+Q15. How to make note section appears in one cell or multiple merged cells in Excel or Access for the download .csv file?
+
+In order to let the note section fit certain cells in Excel, you need to select the note section where you want the note to be inserted, then mouse right click selecting "Format Cells" from the popup window, then select "Alignment", check the "Wrap text" and "Merge Cells" boxes. If the note content does not fit in the merged cells area, then repeat the above steps until all of the text is shown in the merged area.
+If you open the .csv file using Access, choose comma (,) as a field delimiter, choose double quote (") as the text qualifier, then the note section will appear in a cell. You may have to manually make changes to some field names and remove some rows.
