@@ -26,15 +26,15 @@ for row in csv_reader:
 # get the running monthly average, 282 successive month in total
 cross_date.reverse()
 n_month = 0
+sum_Q2 = dict()
+value = []
 for date in cross_date:
     n_month = n_month + 1
-    measure.update({date:dict()})
+    # measure.update({date:dict()})
     running_monthly.update({date:dict()})
     for measures in info[date_key[date]].keys():
-        sum_Q1 = 0
-        sum_Q2 = dict()
+        sum_Q2[measures] = sum_Q2.get(measures,dict())
         running_monthly[date][measures] = running_monthly[date].get(measures,dict())
         for border in info[date_key[date]][measures].keys():
-            sum_Q1 = sum_Q1 + info[date_key[date]][measures][border]
-            sum_Q2[border] = sum_Q2.get(border,0) + info[date_key[date]][measures][border]
-            running_monthly[date][measures].update({border:round(sum_Q2[border]/n_month)})
+            sum_Q2[measures][border] = sum_Q2[measures].get(border,0) + info[date_key[date]][measures][border]
+            running_monthly[date][measures].update({border:round(sum_Q2[measures][border]/n_month)})
